@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EndpointDemo</name>
+    </assembly>
+    <members>
+        <member name="T:EndpointDemo.Endpoints.v1.Auth.AuthInfoRequest">
+            <summary>
+            登录登录(请求获取令牌)的实体类
+            </summary>
+        </member>
+        <member name="P:EndpointDemo.Endpoints.v1.Auth.AuthInfoRequest.Username">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:EndpointDemo.Endpoints.v1.Auth.AuthInfoRequest.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:EndpointDemo.Endpoints.v1.Auth.GrantToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EndpointDemo.Endpoints.v1.Auth.TokenResponse">
+            <summary>
+            授权令牌
+            </summary>
+        </member>
+        <member name="P:EndpointDemo.Endpoints.v1.Auth.TokenResponse.Token">
+            <summary>
+            授权令牌
+            </summary>
+        </member>
+        <member name="T:EndpointDemo.Endpoints.v1.Students.Create">
+            <summary>
+            创建新的学生记录
+            </summary>
+        </member>
+        <member name="M:EndpointDemo.Endpoints.v1.Students.Create.Handle(EndpointDemo.Endpoints.v1.Students.NewStudentRequest)">
+            <summary>
+            创建新的学生记录
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EndpointDemo.Endpoints.v1.Students.NewStudentRequest">
+            <summary>
+            创建学生的实体类
+            </summary>
+        </member>
+        <member name="P:EndpointDemo.Endpoints.v1.Students.NewStudentRequest.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="T:EndpointDemo.Endpoints.v1.Students.GetById">
+            <summary>
+            获取指定ID的学生信息
+            </summary>
+        </member>
+        <member name="M:EndpointDemo.Endpoints.v1.Students.GetById.Handle(System.Int32)">
+            <summary>
+            获取指定ID的学生信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EndpointDemo.Endpoints.v1.Students.StudentResponse">
+            <summary>
+            返回的学生信息响应实体类
+            </summary>
+        </member>
+        <member name="P:EndpointDemo.Endpoints.v1.Students.StudentResponse.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:EndpointDemo.Endpoints.v1.Students.StudentResponse.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+    </members>
+</doc>
